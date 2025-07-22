@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+
+@import "primereact/resources/primereact.min.css" layer(primereact);
+
+@layer tailwind-components {
+  @tailwind components;
+}
+
+@layer tailwind-utilities {
+  @tailwind utilities;
+}
+
+ @import './overrides.css';

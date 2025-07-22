@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer tailwind-base, primereact, tailwind-utilities;
+
+
+.p-tabview.p-component,
+.p-tabview .p-tabview-panels {
+  background-color: #f7fafc !important;
+}
+
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+/* importuje podstawowe style PrimeReact (bez motywu!) */
+@import "primereact/resources/primereact.min.css" layer(primereact);
+
+@layer tailwind-components {
+  @tailwind components;
+}
+
+@layer tailwind-utilities {
+  @tailwind utilities;
+}
+

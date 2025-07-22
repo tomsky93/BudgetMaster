@@ -1,0 +1,15 @@
+body {
+  background-color: #f7fafc !important;
+}
+
+.p-tabview.p-component,
+.p-tabview .p-tabview-panels {
+  background-color: #f7fafc !important;
+}
+
+.p-card .p-card-content {
+  padding-top: 4px !important;
+  padding-bottom: 0 !important;
+   box-shadow: none !important; 
+}
+
