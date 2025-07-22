@@ -74,9 +74,9 @@
 
 1. **Clone the repository**
     
-    `git clone https://github.com/tomsky93/budget_master.git`
+    `git clone https://github.com/tomsky93/BudgetMaster`
    
-   `cd budget_master`
+   `cd BudgetMaster`
     
 3. **Start all services with Docker Compose**
     
